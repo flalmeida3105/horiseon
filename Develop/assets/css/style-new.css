@@ -1,0 +1,134 @@
+/* removing default browser-enforced styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ------------- Start Body style ------------- */
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #d9dcd6;
+}
+/* ------------- Finish Body style ------------- */
+
+
+
+/* ------------- Start header style ------------- */
+/* applying styles to <header> */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* Defines h1 tag style within header */
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* Changes SEO color for tag h1 on header */
+header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* Defines a tag style within header */
+header a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Defines nav tag style within header */
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+}
+
+/* Defines ONLY list item style within header and set it to inline */
+header nav ul li {
+    display: inline;
+}
+
+/* Defines ONLY a tag styles within list item from header */
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+/* ------------- Finish header style ------------- */
+
+/* ------------- Start footer style ------------- */
+/* applying styles to <footer> */
+footer {
+    padding: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: black;
+}
+
+/* Defines the h2 tag style within the footer */
+footer h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+/* ------------- finish footer style ------------- */
+
+
+
+/* ------------- Start Sections style ------------- */
+/* Defining generic classes to all headings (steps) */
+.services {
+    text-align: center;
+}
+
+.service-details {
+    /* margin: 0 auto 20px auto; */
+    margin-bottom: 20px;
+    /* width: 30%; */
+    padding: 50px;
+    /* height: 300px; */
+    background-color: #0072bb;
+    color: #ffffff;
+    overflow: auto;
+    display: inline-block;
+
+}
+
+.service-details img {
+    max-height: 200px;
+    float: left;
+}
+
+.service-description {
+    padding: 50px;
+    float: left;
+    width: 65%;
+}
+
+.service-description h3 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.hero {
+    height: 600px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
