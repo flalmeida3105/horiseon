@@ -81,17 +81,27 @@ footer h2 {
 
 
 /* ------------- Start Sections style ------------- */
-/* Defining generic classes to all headings (steps) */
-.services {
-    text-align: center;
+/* Defining hero settings */
+.hero {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
+/* Defining generic classes to all headings (steps) */
+.services {
+    text-align: left;
+    margin: 20px;
+}
+
+/* Defining service details that will be applied to all services */
 .service-details {
-    /* margin: 0 auto 20px auto; */
     margin-bottom: 20px;
-    /* width: 30%; */
+    width: 75%;
     padding: 50px;
-    /* height: 300px; */
     background-color: #0072bb;
     color: #ffffff;
     overflow: auto;
@@ -101,11 +111,12 @@ footer h2 {
 
 .service-details img {
     max-height: 200px;
+    padding: 10px;
     float: left;
 }
 
 .service-description {
-    padding: 50px;
+    padding: 10px;
     float: left;
     width: 65%;
 }
@@ -121,14 +132,5 @@ footer h2 {
 
 .text-right {
     text-align: right;
-}
-
-.hero {
-    height: 600px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
 }
 
