@@ -61,24 +61,6 @@ header nav ul li a {
 }
 /* ------------- Finish header style ------------- */
 
-/* ------------- Start footer style ------------- */
-/* applying styles to <footer> */
-footer {
-    padding: 30px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    color: black;
-}
-
-/* Defines the h2 tag style within the footer */
-footer h2 {
-    font-size: 20px;
-    margin: 0;
-}
-
-/* ------------- finish footer style ------------- */
-
-
 
 /* ------------- Start Sections style ------------- */
 /* Defining hero settings */
@@ -96,15 +78,15 @@ footer h2 {
     margin: 20px;
     /* float: left; */
     border: solid 6px red;
-    /* display: block; */
+    display: inline-block;
     position: relative ;
-    width: 70%;
+    width: 65%;
 }
 
 /* Defining service details that will be applied to all services */
 .service-details {
     margin-bottom: 20px;
-    width: 100%;
+    /* width: 100%; */
     padding: 50px;
     background-color: #0072bb;
     color: #ffffff;
@@ -138,10 +120,10 @@ footer h2 {
 /* Defining generic classes to all services */
 .benefits {
     margin: 20px;
-    /* float: right; */
+    float: right;
     border: solid 6px green;
     width: 30%;
-    height: 900px;
+    /* height: 900px; */
     /* position: relative; */
 
 }
@@ -152,10 +134,10 @@ footer h2 {
     padding: 50px;
     clear: both;
     float: right;
-    width: 100%;
+    /* width: 100%; */
     background-color: #2589bd; 
-    border: solid 6px yellow;
-        overflow: auto;
+    /* border: solid 6px yellow; */
+    /* overflow: auto; */
 
 }
 
@@ -170,3 +152,27 @@ footer h2 {
     float: left;
     /* width: 65%; */
 }
+
+
+
+
+
+
+
+
+/* ------------- Start footer style ------------- */
+/* applying styles to <footer> */
+footer {
+    padding: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: black;
+}
+
+/* Defines the h2 tag style within the footer */
+footer h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+/* ------------- finish footer style ------------- */
