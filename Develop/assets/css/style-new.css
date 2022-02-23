@@ -66,7 +66,7 @@ header nav ul li a {
 /* Defining hero settings */
 .hero {
     width: 100%;
-    height: 500px;
+    height: 800px;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
@@ -75,37 +75,39 @@ header nav ul li a {
 
 /* Defining generic classes to all services */
 .services {
-    margin: 20px;
+    margin: auto 20px;
     /* float: left; */
     border: solid 6px red;
     display: inline-block;
-    position: relative ;
-    width: 65%;
+    /* position: relative ; */
+    width: 70%;
 }
 
 /* Defining service details that will be applied to all services */
 .service-details {
     margin-bottom: 20px;
-    /* width: 100%; */
+    width: 100%;
     padding: 50px;
     background-color: #0072bb;
     color: #ffffff;
     overflow: auto;
     /* display: flex; */
-    border: solid 6px black;
+    /* border: solid 6px black; */
 
 }
 
 .service-details img {
+    /* margin: 10px; */
     max-height: 200px;
-    padding: 10px;
+    max-width: 300px;
+    /* padding: 10px; */
     float: left;
 }
 
 .service-description {
     padding: 10px;
     float: left;
-    width: 65%;
+    width: 70%;
 }
 
 .service-description h3 {
@@ -121,8 +123,8 @@ header nav ul li a {
 .benefits {
     margin: 20px;
     float: right;
-    border: solid 6px green;
-    width: 30%;
+    /* border: solid 6px green; */
+    width: 20%;
     /* height: 900px; */
     /* position: relative; */
 
@@ -150,7 +152,7 @@ header nav ul li a {
 .benefits-description {
     padding: 10px;
     float: left;
-    /* width: 65%; */
+    width: 65%;
 }
 
 
@@ -172,7 +174,7 @@ footer {
 /* Defines the h2 tag style within the footer */
 footer h2 {
     font-size: 20px;
-    margin: 0;
+    /* margin: 0; */
 }
 
 /* ------------- finish footer style ------------- */
