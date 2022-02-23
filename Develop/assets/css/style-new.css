@@ -93,25 +93,24 @@ footer h2 {
 
 /* Defining generic classes to all services */
 .services {
-    /* text-align: left;
     margin: 20px;
-    width: 100%;
-    display: inline-block; */
-    margin: 20px;
-    float: left;
-    /* width: 100%; */
+    /* float: left; */
+    border: solid 6px red;
+    /* display: block; */
+    position: relative ;
+    width: 70%;
 }
 
 /* Defining service details that will be applied to all services */
 .service-details {
     margin-bottom: 20px;
-    width: 70%;
+    width: 100%;
     padding: 50px;
     background-color: #0072bb;
     color: #ffffff;
     overflow: auto;
-    /* position: relative; */
-    display: inline-block;
+    /* display: flex; */
+    border: solid 6px black;
 
 }
 
@@ -136,22 +135,25 @@ footer h2 {
     text-align: left;
 }
 
-/* Defining generic classes to benefits section */
-/* .benefits {
-    text-align: center;
-    margin: 10px;
-    float: left;
+/* Defining generic classes to all services */
+.benefits {
+    margin: 20px;
+    /* float: right; */
+    border: solid 26px green;
     width: 30%;
-} */
+    position: relative;
 
+}
+
+/* Defining generic classes to benefits section */
 .benefits-details {
     margin-right: 20px;
     padding: 50px;
     clear: both;
     float: right;
     width: 20%;
-    background-color: #2589bd;
-    
+    background-color: #2589bd; 
+    border: solid 6px yellow;
 }
 
 .benefits-details img {
@@ -162,6 +164,6 @@ footer h2 {
 
 .benefits-description {
     padding: 10px;
-    float: right;
+    float: left;
     /* width: 65%; */
 }
