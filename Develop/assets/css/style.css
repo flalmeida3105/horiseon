@@ -13,8 +13,6 @@ body {
 }
 /* ------------- Finish Body style ------------- */
 
-
-
 /* ------------- Start header style ------------- */
 /* applying styles to <header> */
 header {
@@ -82,118 +80,87 @@ header nav ul li a {
 }
 /* ------------- End Hero style ------------- */
 
-.benefits {
-    margin-right: 20px;
+/* ------------- Start Sections style ------------- */
+/* Defining generic classes to all services */
+.services {
     padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    border: solid 6px red;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-height: 100%;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+/* Defining service details that will be applied to all services */
+.service-details {
     margin-bottom: 20px;
+    width: 100%;
     padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    overflow: auto;
+    border: solid 6px black;
 }
 
-.online-reputation-management {
+.service-details img {
+    max-height: 200px;
+    max-width: 300px;
+    float: left;
+}
+
+.service-description {
+    padding: 10px;
+    float: left;
+    width: 70%;
+}
+
+.service-description h3 {
+    font-size: 36px;
     margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+}
+
+/* Defining generic classes to all benefits */
+.benefits {
+    margin-left: 20px;
+    border: solid 6px green;
+    width: 30%;
+    max-height: 100%;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/* Defining generic classes to benefits section */
+.benefits-details {
+    margin-right: 20px 20px;
+    padding: 0px 20px;
+    background-color: #2589bd; 
+    overflow: auto;
+    border: salmon solid 4px;
+}
+
+.benefits-details img {
+    max-height: 200px;
+    max-width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 6px pink;
+}
+
+.benefits-description h3 {
+    padding: 20px;
+    text-align: center;
     color: #ffffff;
 }
 
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+.benefits-description p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    text-align: left;
 }
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/* ------------- End Sections style ------------- */
 
 .footer {
     padding: 30px;
