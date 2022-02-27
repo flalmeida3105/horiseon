@@ -10,5 +10,8 @@ A website that offers web services, which includes online optimization and socia
 ## Website
 https://flalmeida3105.github.io/horiseon/
 
+## Website Screenshot
+![Website Screenshot](assets/screenshot/Horiseon-Screenshot.png)
+
 ## Contribution
 Made with ❤️ by Fernando Almeida
