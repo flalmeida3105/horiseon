@@ -50,11 +50,6 @@ header nav {
     margin-right: 20px;
 }
 
-/* Defines ONLY list item style within header and set it to inline */
-/* header nav ul li {
-    display: inline;
-} */
-
 header nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -72,7 +67,8 @@ header nav ul li a {
 /* ------------- Finish header style ------------- */
 
 
-/* ------------- Start Sections style ------------- */
+/* ------------- Start Hero style ------------- */
+
 /* Defining hero settings */
 .hero {
     background-image: url("../images/digital-marketing-meeting.jpg");
@@ -85,7 +81,10 @@ header nav ul li a {
     height: 800px;
     margin-bottom: 25px;
 }
+/* ------------- End Hero style ------------- */
 
+
+/* ------------- Start Sections style ------------- */
 /* Defining generic classes to all services */
 .services {
     padding: 20px;
@@ -124,11 +123,7 @@ header nav ul li a {
     margin-bottom: 20px;
 }
 
-/* .text-left {
-    text-align: left;
-} */
-
-/* Defining generic classes to all services */
+/* Defining generic classes to all benefits */
 .benefits {
     margin-left: 20px;
     border: solid 6px green;
@@ -151,7 +146,6 @@ header nav ul li a {
 .benefits-details img {
     max-height: 200px;
     max-width: 150px;
-    /* padding: 10px; */
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -159,18 +153,10 @@ header nav ul li a {
 
 }
 
-/* .benefits-description { */
-    /* padding: 10px; */
-    /* float: left;
-    width: 65%;
-    border: solid 6px violet; */
-/* } */
-
 .benefits-description h3 {
     padding: 20px;
     text-align: center;
     color: #ffffff;
-
 }
 
 .benefits-description p {
@@ -179,8 +165,7 @@ header nav ul li a {
     font-size: 16px;
     text-align: left;
 }
-
-
+/* ------------- End Sections style ------------- */
 
 /* ------------- Start footer style ------------- */
 /* applying styles to <footer> */
@@ -194,13 +179,10 @@ footer {
 /* Defines the h2 tag style within the footer */
 footer h2 {
     font-size: 20px;
-    /* margin: 0; */
 }
 
 /* Defines the p tag style within the footer */
 footer p {
     font-size: 16px;
-    /* margin: 0; */
 }
-
-/* ------------- finish footer style ------------- */
+/* ------------- End footer style ------------- */
