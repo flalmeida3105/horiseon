@@ -5,15 +5,13 @@
     box-sizing: border-box;
 }
 
-
 /* ------------- Start Body style ------------- */
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #d9dcd6;
+    background-color: #d9dcd6;
 }
 /* ------------- Finish Body style ------------- */
-
-
 
 /* ------------- Start header style ------------- */
 /* applying styles to <header> */
@@ -22,12 +20,15 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 /* Defines h1 tag style within header */
 header h1 {
-    display: inline-block;
     font-size: 48px;
+    margin-left: 20px;
 }
 
 /* Changes SEO color for tag h1 on header */
@@ -45,42 +46,53 @@ header a {
 header nav {
     padding-top: 15px;
     margin-right: 20px;
-    float: right;
 }
 
-/* Defines ONLY list item style within header and set it to inline */
-header nav ul li {
-    display: inline;
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 
 /* Defines ONLY a tag styles within list item from header */
 header nav ul li a {
-    margin: 0 30px;
+    padding: 10px 15px;
     font-weight: lighter;
-    font-size: 20px;
+    font-size: 1.1vw;
 }
+
+header nav ul li a:hover {
+    background-color: #d9dcd6;
+    color: black;
+}
+
 /* ------------- Finish header style ------------- */
 
+/* ------------- Start Hero style ------------- */
 
-/* ------------- Start Sections style ------------- */
 /* Defining hero settings */
 .hero {
-    width: 100%;
-    height: 800px;
-    margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+    height: 800px;
+    margin-bottom: 25px;
 }
+/* ------------- End Hero style ------------- */
 
+/* ------------- Start Sections style ------------- */
 /* Defining generic classes to all services */
 .services {
-    margin: auto 20px;
-    /* float: left; */
-    /* border: solid 6px red; */
-    display: inline-block;
-    /* position: relative ; */
-    width: 75%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
     max-height: 100%;
 }
 
@@ -92,16 +104,11 @@ header nav ul li a {
     background-color: #0072bb;
     color: #ffffff;
     overflow: auto;
-    /* display: flex; */
-    /* border: solid 6px black; */
-
 }
 
 .service-details img {
-    /* margin: 10px; */
     max-height: 200px;
     max-width: 300px;
-    /* padding: 10px; */
     float: left;
 }
 
@@ -116,66 +123,45 @@ header nav ul li a {
     margin-bottom: 20px;
 }
 
-.text-left {
-    text-align: left;
-}
-
-/* Defining generic classes to all services */
+/* Defining generic classes to all benefits */
 .benefits {
-    margin: auto 20px;
-    float: right;
-    /* border: solid 6px green; */
-    width: 20%;
+    margin-left: 20px;
+    width: 30%;
     max-height: 100%;
-    /* height: 900px; */
-    /* position: relative; */
-
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 /* Defining generic classes to benefits section */
 .benefits-details {
-    /* margin-right: 20px; */
-    /* padding: 50px; */
-    /* clear: both;
-    float: right; */
-    /* width: 100%; */
+    margin-right: 20px 20px;
+    padding: 0px 20px;
     background-color: #2589bd; 
-    /* border: solid 6px yellow; */
-    /* overflow: auto; */
-
+    overflow: auto;
 }
 
 .benefits-details img {
     max-height: 200px;
     max-width: 150px;
-    /* padding: 10px; */
     display: block;
     margin-left: auto;
     margin-right: auto;
-    /* border: solid 6px pink; */
-
 }
-
-/* .benefits-description { */
-    /* padding: 10px; */
-    /* float: left;
-    width: 65%;
-    border: solid 6px violet; */
-/* } */
 
 .benefits-description h3 {
     padding: 20px;
     text-align: center;
     color: #ffffff;
-
 }
 
 .benefits-description p {
+    margin-top: 15px;
+    margin-bottom: 15px;
     font-size: 16px;
-    text-align: center;
+    text-align: left;
 }
-
-
+/* ------------- End Sections style ------------- */
 
 /* ------------- Start footer style ------------- */
 /* applying styles to <footer> */
@@ -189,13 +175,10 @@ footer {
 /* Defines the h2 tag style within the footer */
 footer h2 {
     font-size: 20px;
-    /* margin: 0; */
 }
 
 /* Defines the p tag style within the footer */
 footer p {
     font-size: 16px;
-    /* margin: 0; */
 }
-
-/* ------------- finish footer style ------------- */
+/* ------------- End footer style ------------- */
