@@ -162,13 +162,22 @@ header nav ul li a {
 }
 /* ------------- End Sections style ------------- */
 
-.footer {
+/* ------------- Start footer style ------------- */
+/* applying styles to <footer> */
+footer {
     padding: 30px;
-    clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    color: black;
 }
 
-.footer h2 {
+/* Defines the h2 tag style within the footer */
+footer h2 {
     font-size: 20px;
 }
+
+/* Defines the p tag style within the footer */
+footer p {
+    font-size: 16px;
+}
+/* ------------- End footer style ------------- */
